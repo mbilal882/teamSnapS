@@ -1,0 +1,30 @@
+.role {
+    color: #6F7F9B;
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+.custom-btn-outline {
+    color: #b4b9c4;
+    border: 2px solid #b4b9c4;
+    background-color: white;
+    padding: 10px 23px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.custom-btn-outline:hover {
+    background-color: #687796;
+    color: white;
+    border-color: #687796;
+}
+
+.link {
+    text-decoration: none;
+    color: #1a6baf;
+}
+.link:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,117 @@
+.tab {
+  text-decoration: none;
+  padding: 3px 30px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: black;
+  background-color: rgb(250, 249, 249);
+}
+
+.tab.active {
+  background-color: rgb(211, 211, 211);
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+
+.custom-btn {
+  box-shadow: none;
+  color: #383838;
+  vertical-align: middle;
+  margin: 0;
+  height: 24px;
+  line-height: 21px;
+  border-width: 1px;
+  border-color: #d6d6d6;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  background: white;
+  border-style: solid;
+}
+
+.account {
+  font-size: 14px;
+}
+
+.custom-btn-danger {
+  box-shadow: none;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+  height: 24px;
+  line-height: 21px;
+  border-width: 1px;
+  border-color: #e26362;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #e26362;
+  border-style: solid;
+}
+
+
+.custom-btn-danger:hover {
+  background-color: #e26362;
+  color: white;
+}
+
+.custom-btn-success {
+  box-shadow: none;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+  height: 24px;
+  line-height: 21px;
+  border-width: 1px;
+  border-color: #7fc243;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #7fc243;
+  border-style: solid;
+}
+
+.custom-btn-primary {
+  box-shadow: none;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+  height: 24px;
+  line-height: 21px;
+  border-width: 1px;
+  border-color: #13426e;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #13426e;
+  border-style: solid;
+}
+
+
+/* Icon */
+
+.icon-cross {
+  border-radius: 100%;
+  border: 2px solid red;
+  color: red;
+  padding: 1rem 1.7rem;
+}
+
+.bg-custom-success{
+  background-color: #7fc243 !important;
+}

@@ -1,0 +1,83 @@
+.top-part {
+    background-color: #1a6baf;
+    padding: 4rem;
+}
+
+#myTab {
+    margin-top: -2rem;
+}
+
+.tab-btn {
+    border: 0;
+    padding: 10px 8px;
+    border-radius: 2rem;
+    background: transparent;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-tabs {
+    width: 300px;
+    border-radius: 24px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-color: #204261;
+    position: relative;
+}
+
+.tab-btn.active {
+    border: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    top: 2px;
+}
+
+.nav-items1 {
+    width: 50%;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.nav-items2 {
+    width: 50%;
+}
+
+.btn-cutsom {
+    padding: 8px 24px;
+    background-color: white;
+    border: 2px solid #1a6baf;
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.most-popular {
+    background-color: #1a6baf;
+    width: 8rem;
+    color: white;
+}
+
+.btn-cutsom-blue {
+    padding: 8px 24px;
+    font-weight: bold;
+    background-color: #f76b1b;
+    border: 2px solid #cc520c;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+}
+
+.button-div {
+    padding: 1rem 3rem;
+    background-color: #1a6baf;
+    width: 100%;
+}
+.text-start{
+    user-select: none;
+}

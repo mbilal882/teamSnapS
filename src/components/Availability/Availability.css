@@ -1,0 +1,51 @@
+.pink-color {
+    color: #fbad81;
+    font-size: 10px;
+}
+
+.availability {
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.color-of-teamsnap {
+    color: #1a6baf;
+}
+
+.form-select {
+    box-shadow: none !important;
+    padding: 10px !important;
+}
+
+.tooltips-btn {
+    position: relative;
+}
+
+.tooltips {
+    display: none;
+    background: #fcfcfc;
+    padding: 8px;
+    border: 1px solid rgb(214, 213, 213);
+    position: absolute;
+    border-radius: 8px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.bg-green {
+    background-color: #7fc243 !important;
+}
+
+.bg-blue {
+    background-color: #13426e !important;
+}
+
+.bg-red {
+    background-color: #e26362 !important;
+}

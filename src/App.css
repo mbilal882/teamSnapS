@@ -1,0 +1,78 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.dropdown .fa-angle-down {
+  margin-left: 5px;
+  transition: all 0.5s ease;
+}
+
+.dropdown:hover .fa-angle-down {
+  rotate: 180deg;
+}
+
+.dropdown:hover .dropdown-menu {
+  animation: center-animate 0.3s;
+  display: flex;
+}
+
+.dropdown-items::hover {
+  width: 0;
+  height: 0;
+}
+
+@keyframes center-animate {
+  0% {
+    transform: translateY(140px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  padding: 12px 24px;
+  display: block;
+  transition: 0.5s;
+}
+
+.nav-links:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: rgb(199, 199, 199);
+  color: rgb(9, 9, 156);
+}
+
+.navbar-bg {
+  background: url(https://cdn.sanity.io/images/f5odff7q/production/71ed14e3066bfbb64be41482abd3e0bd820cfa94-2592x1267.jpg);
+}
+
+@media (max-width: 990px) {
+  .nav-links {
+    width: 100% !important;
+  }
+
+  .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .dropdown-items {
+    border: 0 !important;
+  }
+}

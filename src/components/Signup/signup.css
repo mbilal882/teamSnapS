@@ -1,0 +1,20 @@
+.signUp{
+   color: #6f7f9b;
+   margin-top: 3rem;
+}
+input{
+    box-shadow: none !important;
+}
+
+.btn-custom-success{
+    padding: 10px 24px;
+    background-color: #7fc243;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+#error{
+    display: none;
+}
